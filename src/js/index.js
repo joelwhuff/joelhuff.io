@@ -6,8 +6,6 @@ import '../image/liverider.png';
 import '../image/balsamiq.png';
 
 window.addEventListener('load', () => {
-    document.getElementById('content').style.display = 'block';
-
     let projects = Array.from(document.getElementsByClassName('project'));
 
     projects.forEach((project, index) => {
